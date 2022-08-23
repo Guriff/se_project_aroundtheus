@@ -1,7 +1,10 @@
-.page{
-    position: relative;
-    width: 1280px;
-    height: 1217px;
-    margin: 0 auto;
-    background: #000000;
+.page {
+  background: #000;
+}
+.page__content {
+  font-family: "inter";
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  color: #fff;
 }
