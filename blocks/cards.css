@@ -9,7 +9,8 @@
 }
 
 .cards__card {
-  width: 282px;
+  max-width: 282px;
+  max-height: 282px;
 }
 
 .cards__content {
@@ -40,7 +41,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 6fr;
     max-width: calc(100% - 38px);
-    margin: 0 auto;
+   
   }
 }
 @media screen and (max-width: 900px) {

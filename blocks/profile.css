@@ -24,7 +24,7 @@
   align-items: center;
 }
 .profile__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial;
   font-style: normal;
   font-weight: 500;
   font-size: 42px;
@@ -35,7 +35,7 @@
   margin: 0;
 }
 .profile__subtitle {
-  font-family: "Inter";
+  font-family: "Inter", Arial;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -48,19 +48,23 @@
   overflow: hidden;
 }
 .profile__edit {
+  background-image: url(../images/Vector.svg);
+  background-position: center;
+  background-repeat: no-repeat;
   width: 24px;
   height: 24px;
   margin-left: 18px;
-  background-image: url(../images/Edit-Button.png);
   background-color: rgba(0, 0, 0, 0);
-  border: none;
+  border: 2px solid #fff;
   min-width: 24px;
+  
 }
 
 .profile__edit:hover {
   opacity: 0.6;
-  border: 2px solid #ffffff;
-  border: none;
+  cursor: pointer;
+  
+  
 }
 .profile__button {
   width: 150px;
@@ -80,7 +84,7 @@
 
 .profile__button:hover {
   opacity: 0.6;
-  border: 2px solid #ffffff;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
@@ -120,7 +124,6 @@
   }
   .profile__edit {
     margin-left: 10px;
-    background-image: url(../images/Edit-Button.png);
     min-width: 18px;
   }
   .profile__avatar {
