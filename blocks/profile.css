@@ -55,8 +55,8 @@
   height: 24px;
   margin-left: 18px;
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid #fff;
-  min-width: 24px;
+  border: 1px solid #fff;
+  
   
 }
 
@@ -124,7 +124,8 @@
   }
   .profile__edit {
     margin-left: 10px;
-    min-width: 18px;
+    width: 18px;
+    height: 18px;
   }
   .profile__avatar {
     margin-right: 0;
